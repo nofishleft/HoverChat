@@ -1,0 +1,16 @@
+tooltipterm: "%player_displayname%"
+chatlayout: "<%player_displayname%>"
+tooltip:
+  - "%server_time_EEE, MMM d 'at' HH:mm:ss z%"
+  - "User: %player_displayname%"
+  - "Play Time: %statistic_time_played%"
+
+#The tooltipterm is what needs to be hovered over for the tooltip to display.
+
+#Message will be appended to the right of chatlayout with a space in between
+
+#Things bounded by '%' are placeholders which are replaced
+#by things such as usernames, dates, balance etc.
+
+#For PlaceholderAPI's placeholders go to:
+#https://www.spigotmc.org/wiki/placeholderapi-placeholders/

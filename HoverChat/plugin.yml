@@ -1,0 +1,14 @@
+name: HoverChat
+main: tk.nofishleft.hoverchat.HoverChat
+version: 0.1a
+description: A simple tooltip hover chat plugin
+softdepend: [PlaceholderAPI]
+permissions:
+  hoverchat.*:
+    description: Gives access to all features
+    default: op
+    children:
+      hoverchat.see: true
+  hoverchat.see:
+    description: Allows users to see tooltips
+    default: true
