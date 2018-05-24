@@ -39,7 +39,11 @@ public class HoverChat extends JavaPlugin implements Listener {
 			List<String> list = this.getConfig().getStringList("tooltip");
 			String ilayout = "";
 			for (String part: list) {
-				ilayout = ilayout + "/n" + part;
+				if(ilayout == "") {
+					ilayout = part;
+				} else {
+					ilayout = ilayout + "\n" + part;
+				}
 			}
 			layout = ChatColor.translateAlternateColorCodes('&', ilayout);
 		} else {
