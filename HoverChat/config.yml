@@ -1,5 +1,6 @@
+configv: 0.0.2
 tooltipterm: "%player_displayname%"
-chatlayout: "<%player_displayname%>"
+chatlayout: "<%player_displayname%> "
 tooltip:
   - "%server_time_EEE, MMM d 'at' HH:mm:ss z%"
   - "User: %player_displayname%"
@@ -7,7 +8,9 @@ tooltip:
 
 #The tooltipterm is what needs to be hovered over for the tooltip to display.
 
-#Message will be appended to the right of chatlayout with a space in between
+#Message will be appended to the right of chatlayout with NO space in between
+#If you want a space or other character seperating the name from the message
+# then you should add it into chatlayout.
 
 #Things bounded by '%' are placeholders which are replaced
 #by things such as usernames, dates, balance etc.

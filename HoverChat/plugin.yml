@@ -1,6 +1,6 @@
 name: HoverChat
-main: tk.nofishleft.hoverchat.HoverChat
-version: 0.1a
+main: nz.rishaan.hoverchat.HoverChat
+version: 0.0.2
 description: A simple tooltip hover chat plugin
 softdepend: [PlaceholderAPI]
 permissions:
